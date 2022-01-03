@@ -45,6 +45,6 @@ def draw_smile(x, y, color):
 
 
 for _ in range(10):
-    smile(sd.randint(100, 600), sd.randint(100, 600), sd.random_color())
+    draw_smile(sd.randint(100, 600), sd.randint(100, 600), sd.random_color())
 
 sd.pause()
